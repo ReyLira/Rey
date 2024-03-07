@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#4285f4" />
+    <link rel="icon" href="assets/img/icon.ico" type="image/x-icon">
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo"><img src="assets/img/loguito.png" alt="Icono" class="icon_image">Rey
+                Gonzalez</a>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list grid">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">
+                            <i class="uil uil-estate nav_icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">
+                            <i class="uil uil-user nav_icon"></i> Acerca de mí
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">
+                            <i class="uil uil-file-alt nav_icon"></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#services" class="nav_link">
+                            <i class="uil uil-briefcase-alt nav_icon"></i> Servicios
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#portfolio" class="nav_link">
+                            <i class="uil uil-scenery nav_icon"></i> Portafolio
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#contactme" class="nav_link">
+                            <i class="uil uil-message nav_icon"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav_close" id="nav-close"></i>
+            </div>
+
+            <div class="nav_btns">
+                <!--theme change button-->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <div class="section component">
+            <section class="home section" id="home">
+                <div class="home_container container grid">
+                    <div class="home_content grid">
+                        <div class="home_social">
+                            <a href="https://www.linkedin.com/in/rey-andr%C3%A9-dario-gonzalez-del-riego-lira-7340b1221/"
+                                target="blank" class="home_social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+
+                            <a href="https://github.com/ReyLira" target="blank" class="home_social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+
+                        <div class="home_img">
+                            <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                    <image class="home_blob-img" x='8' y='8' xlink:href="assets/img/ese s.(1).png" />
+                                </g>
+                            </svg>
+                        </div>
+
+
+                        <div class="home_data">
+                            <h1 class="home_title">Hola soy,</h1>
+                            <h1 class="home_title">Rey</h1>
+                            <h3 class="home_subtitle">Backend Developer</h3>
+                            <p class="home_description">
+                                Experiencia en Java y Spring Boot, he creado sistemas escalables y eficientes. Tengo
+                                experiencia en el diseño y desarrollo de servicios RESTful para interactuar con bases de
+                                datos SQL como PostgreSQL, MySQL, entre otras.
+                                Además, he trabajado con Docker para la contenerización de aplicaciones y Kubernetes
+                                para la orquestación de contenedores.
+                                Mi enfoque se centra en la calidad del código y la mejora continua para garantizar
+                                soluciones backend robustas y confiables</p>
+                            <a href="https://wa.link/m8yxjt" class="button button--flex">
+                                Contáctame<i class="uil uil-message button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div class="home_Scroll">
+                        <a href="#about" class="home_scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+                            <span class="home_scroll-name">Desplazar</span>
+                            <i class="uil uil-arrow-down home_scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!--==================== ABOUT ====================-->
+        <div class="component">
+            <section class="about section" id="about">
+                <h2 class="section__title">Acerca de mí</h2>
+                <span class="section__subtitle">My introduction</span>
+
+                <div class="about_container container grid">
+                    <img src="assets/img/retrato-3d-personas.jpg" alt="about_img" class="about_img">
+
+                    <div class="about_data">
+                        <p class="about_description">Actualmente, estoy profundizando mis estudios en áreas relacionadas
+                            con el desarrollo backend, especialmente en tecnologías como Java y Spring Boot.
+                            He trabajado con una variedad de bases de datos, incluyendo PostgreSQL, MySQL, y otras,
+                            adquiriendo experiencia en su diseño y gestión.
+                            Además, he desarrollado servicios REST para la interacción eficiente entre el frontend y el
+                            backend.
+                            Soy hábil en el uso de Git para el control de versiones, y estoy entusiasmado por aplicar
+                            mis habilidades en proyectos desafiantes que impulsen la innovación tecnológica y
+                            contribuyan al progreso de la sociedad.</p>
+                        <div class="about_info">
+                            <div class="component">
+                                <span class="about_info-title">20</span>
+                                <span class="about_info-name">Years <br> 09-02-2004</span>
+                            </div>
+
+                            <div class="component">
+                                <span class="about_info-title">4+</span>
+                                <span class="about_info-name">Completed <br> project</span>
+                            </div>
+
+                            <div class="component">
+                                <span class="about_info-title">4+</span>
+                                <span class="about_info-name">
+                                    Programming <br> languages</span>
+                            </div>
+                        </div>
+
+                        <div class="about_buttons component">
+                            <a download="" href="assets/pdf/Rey Gonzalez - CV (1).pdf" class="button button--flex">
+                                Download CV<i class="uil uil-download-alt button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <!--==================== SKILLS SECTION ====================-->
+        <section class="skills section skills-color" id="skills">
+            <h2 class="section__title component">Skills</h2>
+            <span class="section__subtitle component">Experiencia y habilidades en las siguientes Tecnologías:</span>
+            <div class="about__buttons">
+                <button class="button__ghost component" title="Java">
+                    <i class="fab fa-java"></i>
+                </button>
+                <button class="button__ghost component" title="Python">
+                    <i class="fab fa-python"></i>
+                </button>
+                <button class="button__ghost component" title="Docker">
+                    <i class="fab fa-docker"></i>
+                </button>
+                <button class="button__ghost component" title="HTML5">
+                    <i class="fab fa-html5"></i>
+                </button>
+                <button class="button__ghost component" title="Angular">
+                    <i class="fab fa-angular"></i>
+                </button>
+                <button class="button__ghost component" title="NodeJs">
+                    <i class="fab fa-node"></i>
+                </button>
+                <button class="button__ghost component" title="JavaScript">
+                    <i class="fab fa-node-js"></i>
+                </button>
+                <button class="button__ghost component" title="Git">
+                    <i class="fab fa-git"></i>
+                </button>
+                <button class="button__ghost component" title="CSS">
+                    <i class="fab fa-css3-alt"></i>
+                </button>
+                <button class="button__ghost component" title="DataBase">
+                    <i class="fas fa-server"></i>
+                </button>
+                <button class="button__ghost component" title="Linux">
+                    <i class="fab fa-linux"></i>
+                </button>
+                <button class="button__ghost component" title="Windows">
+                    <i class="fab fa-windows"></i>
+                </button>
+                <button class="button__ghost component" title="AWS">
+                    <i class="fab fa-aws"></i>
+                </button>
+                <button class="button__ghost component" title="Gitlab">
+                    <i class="fab fa-gitlab"></i>
+                </button>
+                <button class="button__ghost component" title="BootStrap">
+                    <i class="fab fa-bootstrap"></i>
+                </button>
+                <button class="button__ghost component" title="Github">
+                    <i class="fab fa-github"></i>
+                </button>
+                <button class="button__ghost component" title="Ubuntu">
+                    <i class="fab fa-ubuntu"></i>
+                </button>
+                <button class="button__ghost component" title="Google Cloud">
+                    <i class="fas fa-cloud"></i>
+                </button>
+                <!-- Agrega más botones para otras tecnologías aquí -->
+            </div>
+        </section>
+
+
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section component" id="services">
+            <h2 class="section__title" style="margin-bottom: 20px;">Servicios</h2>
+
+            <div class="services_container container grid">
+                <!--==================== SERVICES 1====================-->
+                <div class="card services_card">
+                    <div class="card-body">
+                        <i class="fab fa-git-alt services_icon"></i>
+                        <h3 class="card-title services_title">Gestión de Versiones</h3>
+                        <p class="card-text">Administración y monitoreo de las versiones de aplicaciones y sistemas para
+                            efectuar cambios de manera eficiente y conservar un registro histórico</p>
+                    </div>
+                </div>
+
+                <!--==================== SERVICES 2====================-->
+                <div class="card services_card">
+                    <div class="card-body">
+                        <i class="fab fa-docker services_icon"></i>
+                        <h3 class="card-title services_title">Orquestación de Contenedores</h3>
+                        <p class="card-text">Utilización de contenedores y herramientas de orquestación para facilitar
+                            la implementación y gestión de aplicaciones.</p>
+                    </div>
+                </div>
+                <!--==================== SERVICES 3====================-->
+                <div class="card services_card">
+                    <div class="card-body">
+                        <i class="far fa-folder-open services_icon"></i>
+                        <h3 class="card-title services_title">Visibilidad Operativa</h3>
+                        <p class="card-text">Supervisión y análisis continuo en tiempo real de aplicaciones y sistemas
+                            para detectar y abordar rápidamente posibles problemas.</p>
+                    </div>
+                </div>
+
+                <!--==================== SERVICES 4====================-->
+                <div class="card services_card">
+                    <div class="card-body">
+                        <i class="fas fa-shield-alt services_icon"></i>
+                        <h3 class="card-title services_title">Seguridad de datos</h3>
+                        <p class="card-text">Implementación de medidas de seguridad sólidas, como autenticación,
+                            autorización y cifrado de datos, para proteger la información en aplicaciones y sistemas.
+                        </p>
+                    </div>
+                </div>
+
+                <!--==================== SERVICES 5====================-->
+                <div class="card services_card">
+                    <div class="card-body">
+                        <i class="fas fa-object-group services_icon"></i>
+                        <h3 class="card-title services_title">Desarrollo de APIs</h3>
+                        <p class="card-text">Implementación de APIs RESTful altamente escalables y seguras, diseñadas
+                            para facilitar la comunicación entre sistemas y garantizar la integridad de los datos.
+                        </p>
+                    </div>
+                </div>
+                <!--==================== SERVICES 6====================-->
+                <div class="card services_card">
+                    <div class="card-body">
+                        <i class="fas fa-network-wired services_icon"></i>
+                        <h3 class="card-title services_title">
+                            Arquitecturas Microservicios</h3>
+                        <p class="card-text">Creación de arquitecturas modulares y altamente escalables para
+                            aplicaciones empresariales
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section portfolio-color component " id="portfolio">
+            <h2 class="section__title">Portafolio</h2>
+            <span class="section__subtitle">Mis proyectos mas recientes:</span>
+
+            <div class="portfolio_container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== PORTFOLIO 1====================-->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assets/img/imag1.jpg" alt="" class="portfolio-img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Web System SOA Cañete</h3>
+                            <p class="portfolio_description">El sistema web SOA es una plataforma integral para la
+                                gestión de ingresos, actividades y transferencias en correcionarias. Ofrece un completo
+                                conjunto de herramientas, incluyendo CRUD y gestión de archivos, para optimizar las
+                                operaciones internas.
+                            </p>
+                            <h5 class="section__subtitle2">View:</h5>
+
+                            <a href="https://github.com/ReyLira/Backend_Service_SOA" target="blank"
+                                class="home_social-icon">
+                                <i class="uil uil-github-alt" style="font-size: 14px;">Github</i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 2====================-->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assets/img/imag3.jpg" alt="" class="portfolio-img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Web System Pastelería</h3>
+                            <p class="portfolio_description">Proyecto Basado en un Modelo de Negocio Real(Pastelería)
+                                donde se podría realizar ventas y generaciones de comprobantes, como también accesos a
+                                partir de un Login. Tecnologías usadas (Java, Sql Server, JasperReport)
+                            </p>
+                            <h5 class="section__subtitle2">View:</h5>
+                            <a href="https://github.com/ReyLira/Sistem_DeligthCake" target="blank"
+                                class="home_social-icon">
+                                <i class="uil uil-github-alt" style="font-size: 14px;">Github</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--add arrows-->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+                <br><br>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section component" id="contactme">
+            <h2 class="section__title">Contactame</h2>
+            <span class="section__subtitle">Ponerse en contacto</span>
+
+            <div class="contact_container container grid">
+                <div>
+                    <div class="contact_information">
+                        <i class="uil uil-phone contact_icon"></i>
+                        <div>
+                            <h3 class="contact_title">Phone</h3>
+                            <span class="contact_subtitle">+51 997 533 646</span>
+                        </div>
+                    </div>
+                    <div class="contact_information">
+                        <i class="uil uil-envelope contact_icon"></i>
+                        <div>
+                            <h3 class="contact_title">E-mail</h3>
+                            <span class="contact_subtitle">reyl13703@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+                <form id="form" class="contact_form grid">
+                    <div class="contact_inputs grid">
+                        <div class="contact_content">
+                            <label for="from_name" class="contact_label">Nombre</label>
+                            <input type="text" name="from_name" id="from_name" class="contact_input">
+                        </div>
+                        <div class="contact_content">
+                            <label for="email_id" class="contact_label">Email</label>
+                            <input type="text" name="email_id" id="email_id" class="contact_input">
+                        </div>
+                    </div>
+                    <div class="contact_content">
+                        <label for="proyect" class="contact_label">¿De qué trata?</label>
+                        <input type="text" name="proyect" id="proyect" class="contact_input">
+                    </div>
+                    <div class="contact_content">
+                        <label for="message" class="contact_label">Mensaje</label>
+                        <textarea type="text" name="message" id="message" cols="0" rows="7"
+                            class=" contact_input contact_label"></textarea>
+                    </div>
+
+                    <div>
+                        <button type="submit" id="button" class="button button--flex">
+                            Enviar
+                            <i class="uil uil-message button_icon"></i>
+                        </button>
+                    </div>
+                </form>
+                
+                <div id="custom-alert" class="custom-alert"></div>
+
+                <script type="text/javascript"
+                    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+                <script type="text/javascript">
+                    emailjs.init('EG57S5ncFn6s-XAes')
+                </script>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer_bg">
+            <div class="footer_container container grid">
+                <div>
+                    <h1 class="footer_title">Rey Gonzalez</h1>
+                    <span class="footer_subtitle">Backend Developer in process</span>
+                </div>
+
+                <ul class="footer_links">
+                    <li>
+                        <a href="#services" class="footer_link">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer_link">Portafolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer_link">Contactame</a>
+                    </li>
+                </ul>
+
+                <div class="footer_socials">
+                    <a href="https://github.com/ReyLira" target="_blank" class="footer_social" rel="noopener">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+
+                    <a href="https://twitter.com/ReyLira7" class="footer_social" target="_blank" rel="noopener">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/rey-andr%C3%A9-dario-gonzalez-del-riego-lira-7340b1221/"
+                        target="_blank" class="footer_social" rel="noopener">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer_copy">&#169;Copyright 2021 All rights reserved | This page was created <i></i>by <a
+                    class="footer_copy" href="#">Code Rey Gonzalez</a></p>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup_icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/validation.js"></script>
+</body>
+
+</html>
